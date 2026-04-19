@@ -1,0 +1,26 @@
+// {
+//     "cmake.sourceDirectory": "/home/einstein/Documents/ROS_PROJECTS/Faraday_Arm_ws/src/Faraday_py_examples",
+//     "urdf-visualizer.packages": {
+//       "faraday_description": "src/faraday_description"
+//   },
+// }
+{
+  "cmake.sourceDirectory": "/home/einstein/Documents/ROS_PROJECTS/Faraday_Arm_ws/src/faraday_description",
+  // "urdf-visualizer.packages": {
+  //   "faraday_description": "${workspaceFolder}/faraday_description"
+  // },
+  // "urdf-visualizer.backgroundColor": "#2b2b2b",
+  // "urdf-visualizer.renderOnSave": false,
+  // "urdf-visualizer.reRenderWhenSwitchFile": false,
+  // "urdf-visualizer.cacheMesh": false,
+  "ROS2.distro": "humble",
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true
+}
