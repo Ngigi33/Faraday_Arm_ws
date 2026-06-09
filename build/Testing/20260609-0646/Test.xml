@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="(empty)"
-	BuildStamp="20260419-1513-Experimental"
+	BuildStamp="20260609-0646-Experimental"
 	Name="einstein-dgon"
 	Generator="ctest-3.22.1"
 	CompilerName="/usr/bin/g++"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="2047"
 	TotalPhysicalMemory="15776"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3799.77"
+	ProcessorClockFrequency="2759.43"
 	>
 	<Testing>
-		<StartDateTime>Apr 19 18:13 EAT</StartDateTime>
-		<StartTestTime>1776611618</StartTestTime>
+		<StartDateTime>Jun 09 09:46 EAT</StartDateTime>
+		<StartTestTime>1780987614</StartTestTime>
 		<TestList/>
-		<EndDateTime>Apr 19 18:13 EAT</EndDateTime>
-		<EndTestTime>1776611618</EndTestTime>
+		<EndDateTime>Jun 09 09:46 EAT</EndDateTime>
+		<EndTestTime>1780987614</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
