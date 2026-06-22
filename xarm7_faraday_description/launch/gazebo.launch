@@ -1,6 +1,6 @@
 <launch>
-  <param name="robot_description" command="$(find xacro)/xacro $(find xArm7_Faraday_with_Gripper_description)/urdf/xArm7_Faraday_with_Gripper.xacro"/>
-  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model xArm7_Faraday_with_Gripper"/>
+  <param name="robot_description" command="$(find xacro)/xacro $(find xarm7_faraday_description)/urdf/xarm7_faraday.xacro"/>
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model xarm7_faraday"/>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="paused" value="true"/>
     <arg name="use_sim_time" value="true"/>

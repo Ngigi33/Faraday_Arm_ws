@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>xArm7_Faraday_with_Gripper_description</name>
+  <name>xarm7_faraday_description</name>
   <version>0.0.0</version>
-<description>The xArm7_Faraday_with_Gripper_description package</description>
+<description>The xarm7_faraday_description package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

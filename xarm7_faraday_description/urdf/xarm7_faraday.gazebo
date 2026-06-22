@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<robot name="xArm7_Faraday_with_Gripper" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<robot name="xarm7_faraday" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
 <xacro:property name="body_color" value="Gazebo/Silver" />
 
@@ -14,56 +14,56 @@
   <gravity>true</gravity>
 </gazebo>
 
-<gazebo reference="J2_1">
+<gazebo reference="XS1305_P02_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="J3_1">
+<gazebo reference="XS1305_P03_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="J4_1">
+<gazebo reference="XS1305_P04_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="J5_1">
+<gazebo reference="XS1305_P05_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="J6_1">
+<gazebo reference="XS1305_P06_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="J7_1">
+<gazebo reference="XS1305_P07_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="Tool_head_1">
+<gazebo reference="XS1305_P08_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="Gripper_G1_3D_File__With__1">
+<gazebo reference="Gripper_G2_3D_File_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
