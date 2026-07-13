@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'simple_parameter=faraday_py_examples.simple_parameter:main',
             'simple_publisher=faraday_py_examples.simple_publisher:main',
             'simple_subscriber=faraday_py_examples.simple_subscriber:main',
         ],
